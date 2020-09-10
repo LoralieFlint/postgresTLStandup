@@ -1,0 +1,26 @@
+1. npm init 
+    creates you package.json
+2. put dependancies needed in package.json and run the npm install
+    this will create the package-lock.json and node modules
+3. create git ignore file
+4. server.js 
+    get the server created 
+5. index.js
+    connect to server.js with helmet cors and starting enpoint to get server running
+6. create the knexfile with npx knex init
+7. create db-config.js file
+    connect to knexfile
+8. create .env file
+    connect to db-config
+9. make new migration file
+10. make new seeds file
+11. put together your database columns and connect seeds
+12. migrate latest and everthing will go into database
+
+
+env info
+DB_URL=postgres://postgres:Lambda19@localhost:5432/test
+
+
+set variable  |  server being used  |  DB being used  |  password   |  local enviornment  |  DB name
+DB_URL        |  postgres:          |  postgres:      |  Lambda19@  |  localhost:5432     |  test
